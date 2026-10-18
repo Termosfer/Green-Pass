@@ -1,7 +1,4 @@
-import img from "../assets/h1-why-choose-img.webp";
 import "../App.css";
-import { ArrowLeft, ArrowRight } from "lucide-react";
-import ServicesSlider from "../components/ServicesSlider";
 import HowItWorks from "../components/HowItWorks";
 import PricingSection from "../components/PricingSection";
 import FAQSection from "../components/FAQSection";

@@ -1,4 +1,3 @@
-import React from "react";
 import { FileText, AlertTriangle, CheckCircle2, ArrowLeft } from "lucide-react";
 import { Link } from "react-router";
 

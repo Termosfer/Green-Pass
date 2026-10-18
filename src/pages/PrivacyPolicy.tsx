@@ -1,4 +1,3 @@
-import React from "react";
 import { ShieldCheck, Lock, Eye, Trash2, ArrowLeft } from "lucide-react";
 import { Link } from "react-router";
 

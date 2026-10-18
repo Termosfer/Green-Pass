@@ -1,7 +1,7 @@
 import  { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router";
 import { Menu, X, ArrowRight } from "lucide-react";
-import logo from "../assets/logo1.jfif";
+import logo from "../assets/logo-header.png";
 
 const navLinks = [
   { name: "Ana Səhifə", path: "/" },

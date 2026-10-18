@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion, type Variants } from "framer-motion";
 import img from "../assets/h1-why-choose-img.webp";
 import featureBg from "../assets/h1-feature-bg-image.webp";
 
@@ -11,7 +11,7 @@ const containerVariants = {
   },
 };
 
-const fadeUp = {
+const fadeUp: Variants = {
   hidden: {
     opacity: 0,
     y: 45,
@@ -26,7 +26,7 @@ const fadeUp = {
   },
 };
 
-const fadeLeft = {
+const fadeLeft: Variants = {
   hidden: {
     opacity: 0,
     x: -60,
@@ -41,7 +41,7 @@ const fadeLeft = {
   },
 };
 
-const fadeRight = {
+const fadeRight: Variants = {
   hidden: {
     opacity: 0,
     x: 60,
