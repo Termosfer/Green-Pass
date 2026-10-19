@@ -3,20 +3,18 @@ import { Link } from "react-router";
 
 const PrivacyPolicy = () => {
   return (
-    <div className="bg-[#FAF9F5] min-h-screen pt-32 pb-24 px-6 md:px-16 text-[#0D1F1B]">
+    <div className="bg-[#F6F8FC] min-h-screen pt-32 pb-24 px-6 md:px-16 text-[#0D1F1B]">
       <div className="max-w-4xl mx-auto bg-white rounded-3xl p-8 md:p-14 border border-stone-200 shadow-sm">
-        {/* Geri qayıt */}
         <Link
           to="/"
-          className="inline-flex items-center gap-2 text-sm font-semibold text-gray-500 hover:text-emerald-600 mb-8 transition-colors"
+          className="inline-flex items-center gap-2 text-sm font-semibold text-gray-500  mb-8 transition-colors"
         >
           <ArrowLeft className="w-4 h-4" />
           <span>Ana Səhifəyə Qayıt</span>
         </Link>
 
-        {/* Başlıq */}
         <div className="border-b border-stone-100 pb-8 mb-8">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 text-xs font-bold uppercase tracking-wider mb-4">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#0648bc] text-white text-xs font-bold uppercase tracking-wider mb-4">
             <ShieldCheck className="w-4 h-4" />
             Məxfilik və Təhlükəsizlik
           </div>
@@ -46,7 +44,7 @@ const PrivacyPolicy = () => {
 
           <section>
             <h2 className="text-xl font-bold text-[#0D1F1B] mb-3 flex items-center gap-2">
-              <Eye className="w-5 h-5 text-emerald-600" />
+              <Eye className="w-5 h-5 text-[#0648bc]" />
               2. Toplanan Məlumatlar
             </h2>
             <p className="mb-2">
@@ -64,7 +62,7 @@ const PrivacyPolicy = () => {
 
           <section>
             <h2 className="text-xl font-bold text-[#0D1F1B] mb-3 flex items-center gap-2">
-              <Lock className="w-5 h-5 text-emerald-600" />
+              <Lock className="w-5 h-5 text-[#0648bc]" />
               3. Məlumatların İstifadə Məqsədi və Saxlanması
             </h2>
             <p>
@@ -90,7 +88,7 @@ const PrivacyPolicy = () => {
 
           <section>
             <h2 className="text-xl font-bold text-[#0D1F1B] mb-3 flex items-center gap-2">
-              <Trash2 className="w-5 h-5 text-emerald-600" />
+              <Trash2 className="w-5 h-5 text-[#0648bc]" />
               5. Məlumatların Silinməsi Hüququ
             </h2>
             <p>

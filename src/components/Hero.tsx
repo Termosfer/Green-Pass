@@ -63,7 +63,7 @@ const Hero = () => {
           <h3 className="text-xl sm:text-2xl md:text-3xl font-bold pb-1 sm:pb-3 text-stone-300">
             Peşəkar Dəstəklə
           </h3>
-          <p className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-black tracking-tighter leading-none select-none opacity-90">
+          <p className="text-5xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-9xl font-black tracking-tighter leading-none select-none opacity-90">
             AmerikaXəyalı
           </p>
         </div>

@@ -93,7 +93,7 @@ const Services = () => {
           </p>
           <Link
             to="/#pricing"
-            className="inline-flex items-center gap-2 bg-[#b42336] hover:bg-[#8a1b29] text-white font-bold px-8 py-4 rounded-full  transition-colors"
+            className="inline-flex items-center gap-2 bg-[#10264A]  text-white font-bold px-8 py-4 rounded-full  transition-colors"
           >
             <span>Tariflərə Baxın</span>
             <ArrowRight className="w-4 h-4" />

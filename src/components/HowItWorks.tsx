@@ -81,7 +81,7 @@ const HowItWorks = () => {
   const lineWidthPercent = 16.66 + scrollProgress * (83.33 - 16.66);
 
   return (
-    <div ref={containerRef} className="relative h-[240vh] bg-[#FAF9F5] ">
+    <div ref={containerRef} className="relative h-[240vh] bg-[#F6F8FC] ">
       <div className="sticky top-0 min-h-screen flex flex-col justify-center pb-16 px-6 md:px-16 overflow-hidden">
         <div className="max-w-7xl mx-auto w-full">
           <div className="text-center pb-16">

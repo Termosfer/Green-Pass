@@ -184,7 +184,7 @@ const Contact = () => {
 
                 <button
                   type="submit"
-                  className="w-full py-4 rounded-2xl bg-[#b42336] hover:bg-[#8a1b29] text-white font-bold text-sm  transition-colors flex items-center justify-center gap-2 shadow-md"
+                  className="w-full py-4 rounded-2xl bg-[#10264A]  text-white font-bold text-sm  transition-colors flex items-center justify-center gap-2 shadow-md"
                 >
                   <Send className="w-4 h-4" />
                   <span>Mesajı Göndər</span>

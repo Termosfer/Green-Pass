@@ -158,8 +158,8 @@ const PricingSection = () => {
                 <button
                   className={`group relative w-full py-4 px-6 rounded-2xl font-bold text-sm flex items-center justify-center overflow-hidden transition-all duration-300 shadow-sm ${
                     isPopular
-                      ? "bg-[#b42336] hover:bg-[#8a1b29] text-white "
-                      : "bg-[#0D1F1B] text-white hover:bg-[#1a332d]"
+                      ? "bg-white text-black "
+                      : "bg-[#10264A] text-white "
                   }`}
                 >
                   <span className="flex items-center gap-2 transform transition-all duration-300 group-hover:-translate-x-2">
